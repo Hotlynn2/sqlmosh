@@ -1,4 +1,4 @@
-SELECT LENGTH('Hotspot') AS length,
+/*SELECT LENGTH('Hotspot') AS length,
 		LOWER('Hotspot') AS lower_case,
         UPPER('Hotspot') AS upper_case,
         LTRIM('   Hotspot') AS left_trim,
@@ -10,4 +10,10 @@ SELECT LENGTH('Hotspot') AS length,
         SUBSTRING('Hotspot', 3, 6) AS substring2,
         LOCATE('t', 'Hotspot') AS locate,
         REPLACE('Hotspot', 'Hot', 'Fire') AS replace_string,
-        CONCAT('Hot', ' spot') AS concat
+        CONCAT('Hot', ' spot') AS concat*/
+        
+USE sql_store;
+
+SELECT CONCAT(first_name, ' ', last_name) AS full_name
+FROM customers
+        
