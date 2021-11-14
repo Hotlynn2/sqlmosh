@@ -16,4 +16,7 @@ USE sql_store;
 
 SELECT CONCAT(first_name, ' ', last_name) AS full_name
 FROM customers
+
+-- https://dev.mysql.com/doc/refman/8.0/en/string-functions.html
+-- link to all mysql string functions
         
