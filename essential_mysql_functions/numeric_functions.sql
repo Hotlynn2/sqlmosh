@@ -5,3 +5,6 @@ SELECT  ROUND(6.3475, 2) AS two_decimal,
         FLOOR(6.78) AS floor,
         ABS(-98.7) AS absolute,
         RAND() AS random_number
+        
+-- https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html
+-- link to all mysql numerical functions
