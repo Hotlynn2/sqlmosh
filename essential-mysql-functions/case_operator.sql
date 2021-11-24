@@ -8,4 +8,3 @@ SELECT
 	END AS category
 FROM customers
 ORDER BY points DESC, category
-        
