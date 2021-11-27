@@ -9,7 +9,7 @@ BEGIN
     DECLARE invoices_total DECIMAL(9,2);
     DECLARE invoices_count INT;
     
-    SELECT COUNT(*), SUM(invoices_total)
+    SELECT COUNT(*), SUM(invoice_total)
     INTO invoices_count, invoices_total
     FROM invoices
     
